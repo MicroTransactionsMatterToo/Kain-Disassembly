@@ -1,2 +1,6 @@
 *.asm filter=lfs diff=lfs merge=lfs -text
 .\kain2.asm filter=lfs diff=lfs merge=lfs -text
+kain2.id0 filter=lfs diff=lfs merge=lfs -text
+kain2.id1 filter=lfs diff=lfs merge=lfs -text
+kain2.id2 filter=lfs diff=lfs merge=lfs -text
+kain2.idb filter=lfs diff=lfs merge=lfs -text
