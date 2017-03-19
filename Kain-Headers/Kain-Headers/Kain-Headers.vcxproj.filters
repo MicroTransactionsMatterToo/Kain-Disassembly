@@ -18,5 +18,25 @@
     <ClInclude Include="monlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="registry_management.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="baseline_includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="registry_management.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="root_funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

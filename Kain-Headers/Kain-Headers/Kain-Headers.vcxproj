@@ -19,7 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="baseline_includes.h" />
+    <ClInclude Include="globals.h" />
     <ClInclude Include="monlib.h" />
+    <ClInclude Include="registry_management.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="root_funcs.cpp" />
+    <ClCompile Include="registry_management.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

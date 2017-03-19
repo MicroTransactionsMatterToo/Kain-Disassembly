@@ -57,7 +57,10 @@ int __stdcall WinMain(HINSTANCE windowInstance, HINSTANCE previousInstance, LPST
 		++startOfFilename;
 	}
 	moduleFilenameContents[index] = 0;
+	int processID = lcGetCurrentProcessId();
 	
+	const char kernelModule
+
 }
 
 
